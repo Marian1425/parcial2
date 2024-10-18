@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    width: 1366px;
+    height: auto;
+    background-color: #EAD4D3;
+    margin: 0 auto;
+}
+
+header{
+    width: 1366px;
+    height: 320px;
+    background-color: #eb908a;
+    text-align: center;
+}
+
+
+
+.logotipo{
+    width: 1366px;
+    height: auto;
+    background-color: #ef3f2cad;
+    text-align: left;
+}
+
+nav{
+    width: 1366px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    background-color: #EF412C;
+    font-family: "Playwrite GB S", cursive;
+}
+
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+nav a:hover{
+    background-color: #EB908A;
+}
+
+
+
+h1{
+    font-size: 38px;
+    font-family: "Playwrite GB S", cursive;
+}
+
+h3{
+    font-family: "Sofia", cursive;
+}
+
+h2{
+    font-size: "Caveat", cursive;
+}
+
+p{
+    font-family: "Kalam", cursive;
+}
+
+.banner{
+    width: 1000px;
+    height: 820px;
+    background-image: url(../Imagenes/banner.jpg);
+    background-size: cover;
+    position: relative;
+
+
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes animacion{
+    0%{
+        width: 200px;
+    }
+    50%{
+        background-color: aqua;
+        width: 200px;
+    }
+    100%{
+        background-color: aquamarine;
+        height: 200px;
+    }
+}
+
+.info{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-color: #eb908a62;
+}
+
+section{
+    width: 1366px;
+    height: 500px;
+    background-color: #EAD4D3;
+    margin: 0 auto;
+}
+
+.foto{
+    width: 300px;
+    height: 300px;
+    border-top: 2px plum;
+    border-bottom: 2px plum;
+    float: left;
+    margin: 20px;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.texto{
+    width: 300px;
+    height: 300px;
+    background-color: #eb908a6b;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+
+    position: absolute;
+    top: 150px;
+    transition: .5s;
+}
+
+.texto:hover{
+    top: 0;
+}
+.texto a{
+    padding: 10px 15px;
+    background-color: #EB908A;
+    color: white;
+    font-family: "Playwrite GB S", cursive;
+    border-radius: 10px;
+}
+
+.titulo{
+    margin-left: 0 auto;
+}
+
+.izquierda{
+    width: 850px;
+    height: 400px;
+    background-color: #EB908A;
+    float: left;
+    margin-left: 30px;
+}
+
+.textoiz{
+    width: 600px;
+    height: auto;
+    background-color: #EAD4D3;
+    padding: 20px;
+    float: left;
+    font-family: "Kalam", cursive;
+}
+
+.imagende{
+    width: 350px;
+    height: 200px;
+    border-top: 2px;
+    border-bottom: 2px;
+    float: left;
+    background-color: #EB908A;
+    text-align: right;
+    margin-left: 50px;
+}
+
+.derecha{
+    width: 850px;
+    height: 400px;
+    background-color: #EB908A;
+    float: right;
+    margin-left: 30px;
+}
+
+.textode{
+    width: 600px;
+    height: auto;
+    background-color: #EAD4D3;
+    padding: 20px;
+    float: left;
+    font-family: "Kalam", cursive;
+}
+
+.imageniz{
+    width: 350px;
+    height: 200px;
+    border-top: 2px;
+    border-bottom: 2px;
+    float: left;
+    background-color: #EB908A;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.banner2{
+    width: 1100px;
+    height: 450px;
+    margin: auto;
+    background-image: url(../Imagenes/bXRTscRhn2HFFNsdgasl.png);
+    background-size: cover;
+    position: relative;
+    color: black;
+}
+
+.inicio{
+    width: 200px;
+    padding: 10px 15px;
+    background-color: #EF412C;
+    color: aliceblue;
+    font-family: "Dosis", sans-serif;
+    border-radius: 10px;
+    position: fixed;
+    right: -90px;
+    bottom: 50px;
+    transition: .8s;
+}
+
+.inicio:hover{
+    right: -10px;
+}
+.inicio a{
+    color: white;
+}
+.cuadro{
+        width: 100px;
+        height: 100px;
+        background-color: #EF412C;
+        transform: scale(1);
+        border-radius: 50%;
+        overflow: hidden;
+        transition: .7s
+}
+
+footer{
+    width: 1366px;
+    height: auto;
+    text-align: center;
+    background-color: #eb908a;
+}
